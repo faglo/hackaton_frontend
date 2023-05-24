@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/Kanban.css'
+import styles from './KanbanColumn.module.scss'
 import { useDroppable } from '@dnd-kit/core'
 
 export default function KanbanColumn ({
@@ -18,11 +18,11 @@ export default function KanbanColumn ({
   }
   return (
     <div ref={setNodeRef} style={style}>
-      <div className='kc__header__container'>
-        <div className='kc__header__text__header'>
+      <div className={styles.header}>
+        <div className={styles.title}>
           {name}
         </div>
-        <div className='kc__header__text__subheader'>
+        <div className={styles.subtitle}>
           {count} документ(а,ов)
         </div>
         <div style={{
@@ -31,7 +31,7 @@ export default function KanbanColumn ({
         }}>
         </div>
       </div>
-      <div className='kc__body__container'>
+      <div>
         {children}
       </div>
     </div>

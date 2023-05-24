@@ -1,13 +1,13 @@
 import React from 'react'
-import '../styles/Modal.css'
+import styles from './Modal.module.scss'
 import close from '../assets/icons/close.svg'
 
 export default function Modal ({ children, open, onClose }) {
   if (!open) return null
   return (
-    <div className='modal__container'>
-      <div className='modal__window'>
-        <img className='modal__close' src={close} onClick={onClose}/>
+    <div className={styles.container}>
+      <div className={styles.window}>
+        <img className={styles.close} src={close} onClick={onClose}/>
         {children}
       </div>
     </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import './assets/fonts/stylesheet.css'
 import './styles/App.css'
-import Nav from './components/Nav'
+import Nav from './components/Nav/Nav'
 import { Route, Routes } from 'react-router'
 import Kanban from './screens/Kanban'
 import Documents from './screens/Documents'

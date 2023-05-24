@@ -1,4 +1,4 @@
-.kc__header__container {
+.header {
   background: #FFFFFF;
   border-radius: 20px;
   width: 378px;
@@ -9,7 +9,7 @@
   justify-content: center;
 }
 
-.kc__header__text__header {
+.title {
   font-weight: 400;
   font-size: 20px;
   line-height: 26px;
@@ -21,7 +21,7 @@
   padding-bottom: 4px;
 }
 
-.kc__header__text__subheader {
+.subtitle {
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;

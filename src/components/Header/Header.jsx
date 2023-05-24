@@ -3,7 +3,7 @@ import logo from '../../assets/logo.svg'
 import bell from '../../assets/icons/bell.svg'
 import calendar from '../../assets/icons/calendar.svg'
 import search from '../../assets/icons/search.svg'
-import User from '../User'
+import User from '../User/User'
 import styles from "./Header.module.scss"
 
 export default function Header () {

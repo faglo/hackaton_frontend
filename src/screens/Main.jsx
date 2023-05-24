@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/Main.css'
 import dropdown from '../assets/icons/dropdown.svg'
 import Dropdown from 'react-dropdown'
-import KanbanCard from '../components/KanbanCard'
+import KanbanCard from '../components/KanbanCard/KanbanCard'
 export default function Main () {
   const mock = [
     {

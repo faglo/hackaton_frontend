@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
-import KanbanColumn from './KanbanColumn'
-import KanbanCard from './KanbanCard'
+import KanbanColumn from './KanbanColumn/KanbanColumn'
+import KanbanCard from './KanbanCard/KanbanCard'
 import { DndContext } from '@dnd-kit/core'
 import { getColumnsByFunnelId, getTasksByColumnId, moveTask } from '../../API/kanban.js'
 import dayjs from 'dayjs'

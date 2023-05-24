@@ -1,13 +1,13 @@
 import React from 'react'
-import Header from './Header/Header.jsx'
-import Drawer from './Drawer/Drawer.jsx'
-import '../styles/Nav.css'
+import Header from '../Header/Header.jsx'
+import Drawer from '../Drawer/Drawer.jsx'
+import styles from './Nav.module.scss'
 
 export default function Nav ({ children }) {
   return (
     <div>
       <Header />
-        <div className='main'>
+        <div className={styles.nav}>
           {children}
         </div>
       <Drawer />
