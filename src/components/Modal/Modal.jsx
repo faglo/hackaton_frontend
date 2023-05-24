@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Modal.module.scss'
-import close from '../assets/icons/close.svg'
+import close from '../../assets/icons/close.svg'
 
 export default function Modal ({ children, open, onClose }) {
   if (!open) return null

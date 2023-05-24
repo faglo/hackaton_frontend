@@ -1,7 +1,7 @@
 import React from 'react'
-import img1 from '../assets/images/img1.png'
+import img1 from '../../assets/images/img1.png'
 import styles from './User.module.scss'
-import dropdown from '../assets/icons/dropdown.svg'
+import dropdown from '../../assets/icons/dropdown.svg'
 
 export default function User() {
   const [user, setUser] = React.useState('Мария Иванова')

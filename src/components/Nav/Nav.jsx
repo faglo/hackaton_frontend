@@ -7,7 +7,7 @@ export default function Nav ({ children }) {
   return (
     <div>
       <Header />
-        <div className={styles.nav}>
+        <div className={styles.mainNav}>
           {children}
         </div>
       <Drawer />

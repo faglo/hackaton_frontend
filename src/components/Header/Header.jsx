@@ -8,18 +8,18 @@ import styles from "./Header.module.scss"
 
 export default function Header () {
   return (
-    <div className='header'>
+    <div className={styles.header}>
       <img src={logo}/>
-      <div className='inputContainer'>
-        <img src={search} className='inputContainer__icon'/>
+      <div className={styles.inputContainer}>
+        <img src={search} className={styles.icon}/>
         <input
-          className='input'
+          className={styles.input}
           placeholder="Поиск"
           type="text"
         />
       </div>
-      <div className='header__actions'>
-        <div className='header__buttons'>
+      <div className={styles.actions}>
+        <div className={styles.buttons}>
           <img src={calendar}/>
           <img src={bell}/>
         </div>
